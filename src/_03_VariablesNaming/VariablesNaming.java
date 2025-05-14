@@ -23,6 +23,6 @@ public class VariablesNaming {
         //상수 절대 변하지 않는 데이터 => 상수명 다 대문자
         final String COUNTRY_CODE = "KR";
         // COUNTRY_CODE = "US" 상수이기 때문에 바뀌지 않음.
-
+        //test
     }
 }
