@@ -60,6 +60,8 @@ public class TypeCasing {
 
 //        i = Integer.parseInt("숫자");
 //        System.out.println(i);
+        // test
+
 
 
 
