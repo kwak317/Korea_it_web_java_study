@@ -9,8 +9,6 @@ public class MultipleTable {
             for (int j = 2; j <=9 ; j++) {
                 System.out.println(i+ "X" +j + "=" + (i*j) );
             }
-
-
         }
     }
 }
