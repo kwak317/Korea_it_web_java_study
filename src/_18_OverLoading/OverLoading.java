@@ -22,13 +22,23 @@ public class OverLoading {
         return result;
     }
     public static void printInFo(String name){
-        System.out.println("곽호준");
+        System.out.println("이름은 "+ name);
     }
     public static void printInFo(String name, int age){
-        System.out.println("곽호준"+"23");
+        System.out.println("이름은 "+ name + " 나이는 " +age);
     }
     public static void printInFo(String name, int age, String email){
-        System.out.println("곽호준"+"23"+"hojun6901@gmail.com");
+        System.out.println("이름은 " + name + " 나이는 "+ age+ " 이메일은 "+email);
+    }
+
+    public static void add(int a, int b){
+        System.out.println(a + "+" + b + "=" + (a+b));
+    }
+    public static void add(double a, double b){
+        System.out.println(a + "+" + b + "=" + (a+b));
+    }
+    public static void add(String strNum1 , String strNum2){
+        System.out.println(Integer.parseInt(strNum1) + "+" + Integer.parseInt(strNum2) + "=" + (Integer.parseInt(strNum1)+Integer.parseInt(strNum2)));
     }
 
     public static void main(String[] args) {
@@ -39,6 +49,14 @@ public class OverLoading {
         System.out.println(getPower(2.3));
         System.out.println(getPower("4"));
         System.out.println(getPower(2,4));
+
+        printInFo("곽호준");
+        printInFo("곽호준",23);
+        printInFo("곽호준",23,"hojun6901@gmail.com");
+
+        add(3,4);
+        add(1.2,3.4);
+        add("4","5");
 
 
         //문제
