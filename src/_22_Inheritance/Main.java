@@ -12,5 +12,13 @@ public class Main {
         //자식클래스는 부모의 코드를 그대로 사용
         //자식클래스는 부모의 코드를 그대로 사용하거나, 필요한 기능을 또 추가하거나
         //부모의 코드(메소드) 변경 가능 => 오버라이딩
+
+        Animal animal1 = new Animal();
+        animal1.setAnimalName("고양이");
+        animal1.setAnimalAge(3);
+        animal1.move();
+
+        Tiger tiger1 = new Tiger();
+
     }
 }
