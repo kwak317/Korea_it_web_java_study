@@ -1,11 +1,11 @@
 package _22_Inheritance;
 
 public class Animal {
-    //필드(매개변수) == 객체의 속성
+    //필드(멤버변수) == 객체의 속성
     private String animalName;
-    private String animalAge;
+    private int animalAge;
 
-    //생성자
+    // 생성자
     public Animal() {
     }
 
@@ -41,5 +41,5 @@ public class Animal {
 
     public void move() {
         System.out.println("움직입니다.");
-
+    }
 }
