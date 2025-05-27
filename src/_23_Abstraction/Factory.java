@@ -15,13 +15,6 @@ public abstract class Factory {
     public abstract void produce(String model);
     public abstract void manage();
 
-    public void setModelName(String modelName){
-        this.modelName = modelName;
-    }
-    public String getModelName(){
-        return modelName;
-    }
-
     public void setName(String name){
         this.name = name;
     }
@@ -29,7 +22,7 @@ public abstract class Factory {
         return name;
     }
     public void displayInfo(){
-        System.out.println("공장 정보를 출력합니다. 공장이름 :"+name);
+        System.out.println("공장 정보를 출력합니다. 공장이름 :"+ name);
     }
 
 
