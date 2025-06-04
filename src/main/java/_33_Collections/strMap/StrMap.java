@@ -86,7 +86,5 @@ public class StrMap {
         //Key Set 출력
         Set<String> keySet = strMap1.keySet();
         System.out.println(keySet);
-
-
     }
 }
