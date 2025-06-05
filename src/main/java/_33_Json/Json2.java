@@ -1,14 +1,17 @@
 package _33_Json;
 
-import _27_Bean.UserEntity;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
+import com.google.gson.internal.GsonTypes;
+import lombok.AllArgsConstructor;
+import lombok.ToString;
 
 import java.util.HashMap;
 import java.util.Map;
 
-
+@AllArgsConstructor
+@ToString
 class User{
     private String username;
     private String password;
@@ -47,7 +50,7 @@ public class Json2 {
         jsonObject1.addProperty("score","99.7");
 
         String studentJson = gson.toJson(jsonObject1);
-        System.out.println("gson사용 : " + studentJson;
+        System.out.println("gson사용 : " + studentJson);
         studentJson = gsonBuilder.toJson(jsonObject1);
         System.out.println("gsonBuilder 사용 : " +studentJson);
 
