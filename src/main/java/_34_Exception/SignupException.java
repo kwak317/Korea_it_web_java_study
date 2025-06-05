@@ -12,7 +12,7 @@ public class SignupException {
     public static void signUp(String name, int age) throws SignupFailedException{
 
         if (age < 14){
-            throw new SignupFailedException("나이가 너무 어립니다.");
+            throw new SignupFailedException("만 14세 미만 가입 불가");
         }
         System.out.println(name + "님 반갑습니다.");
     }
